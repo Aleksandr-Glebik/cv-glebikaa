@@ -1,12 +1,12 @@
 import React from 'react';
+import Home from './pages/Home/Home';
 import './scss/app.scss';
 
 function App() {
   return (
-    <div className="App">
-      <p className="job">Frontend Developer React</p>
-      <p className="name">Aleksandr Glebik</p>
-    </div>
+    < >
+      <Home />
+    </>
   );
 }
 
