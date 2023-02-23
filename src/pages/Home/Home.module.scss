@@ -15,7 +15,6 @@
         background-size: cover;
         z-index: 1;
     }
-
     .stars {
         position: absolute;
         top: calc(50% - 395px);
@@ -26,7 +25,6 @@
         background-size: cover;
         z-index: 15;
     }
-
     .astronaut {
         position: absolute;
         top: calc(50% - (700px / 2));
@@ -37,12 +35,10 @@
         background-size: cover;
         z-index: 5;
     }
-
     .icon {
         z-index: 10;
         background-size: cover;
     }
-
     .html {
         position: absolute;
         top: calc(62% - 37.5px);
@@ -51,7 +47,6 @@
         height: 75px;
         background-image: url("../../assets/icon/html.png");
     }
-
     .css {
         position: absolute;
         top: calc(73% - 45px);
@@ -68,7 +63,6 @@
         height: 92px;
         background-image: url("../../assets/icon/js.png");
     }
-
     .react {
         position: absolute;
         top: calc(36% - 53px);
@@ -116,6 +110,32 @@
         width: 70px;
         height: 70px;
         background-image: url("../../assets/icon/figma.png");
+    }
+    .text__container {
+        position: absolute;
+        top: 48%;
+        right: 7%;
+        z-index: -10;
+
+        &_title {
+            font-family: 'Shantell Sans', cursive;
+            font-size: 58px;
+            font-style: italic;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: $red;
+            text-align: center;
+        }
+
+        &_text {
+            font-family: 'Shantell Sans', cursive;
+            font-size: 48px;
+            font-style: italic;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: $gold;
+            text-align: center;
+        }
     }
 }
 
