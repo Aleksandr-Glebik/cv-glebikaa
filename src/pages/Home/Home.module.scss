@@ -8,6 +8,14 @@
     z-index: 0;
     position: relative;
 
+    .backgroundStars {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../../assets/img/backgroundStars.png");
+        background-size: cover;
+        z-index: 1;
+    }
+
     .stars {
         position: absolute;
         top: calc(50% - 395px);
@@ -27,7 +35,7 @@
         height: 700px;
         background-image: url("../../assets/img/astronaut.png");
         background-size: cover;
-        z-index: 1;
+        z-index: 5;
     }
 
     .icon {
