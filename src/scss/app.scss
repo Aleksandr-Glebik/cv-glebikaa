@@ -9,7 +9,7 @@ font-family: 'Shantell Sans', cursive;
 .wrapper {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .bgStars-enter-active {
     animation: bgPanTr 6s both;
