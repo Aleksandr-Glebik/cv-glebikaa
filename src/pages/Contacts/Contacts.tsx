@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './Contacts.module.scss';
+import { motion } from 'framer-motion'
 
-import Contact from '../../components/contact/Contact';
+import MContact from '../../components/contact/Contact';
 
 import imgPngSrc from '../../assets/img/astro.png'
 import linkedInSrc from '../../assets/icon/linkedIn.png'
@@ -40,21 +41,86 @@ const contactsArr = [
     },
 ]
 
+const imgAnimation = {
+    hidden: {
+      x: -200,
+      opacity: 0,
+    },
+    visible: (custom: number)  => ({
+      x: 0,
+      opacity: 1,
+      transition: { delay: custom * 0.2}
+    }),
+}
+const contentAnimation = {
+    hidden: {
+      x: 300,
+      opacity: 0,
+    },
+    visible: (custom: number)  => ({
+      x: 0,
+      opacity: 1,
+      transition: { delay: custom * 0.2}
+    }),
+  }
+const itemAnimation = {
+    hidden: {
+      x: 200,
+      opacity: 0,
+    },
+    visible: (custom: number) => ({
+      x: 0,
+      opacity: 1,
+      transition: { delay: custom * 0.2}
+    })
+}
+
 const Contacts: React.FC = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.parallax}>
-        <section className={styles.section}>
-            <img src={imgPngSrc} alt="astronaut_img" className={styles.images}/>
+        <motion.section
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            amount: 0.2,
+            // once: true
+          }}
+          className={styles.section}
+        >
+            <motion.img
+              src={imgPngSrc}
+              alt="astronaut_img"
+              className={styles.images}
+              custom={2}
+              variants={imgAnimation}
+            />
             <div className={styles.content}>
-                <h2 className={styles.content__title}>Contacts</h2>
-                <ul className={styles.content__items}>
+                <motion.h2
+                  className={styles.content__title}
+                  custom={1}
+                  variants={contentAnimation}
+                >
+                    Contacts
+                </motion.h2>
+                <motion.ul
+                  className={styles.content__items}
+                  custom={3}
+                  variants={contentAnimation}
+                >
                     {contactsArr.map( (item, ind) => (
-                        <Contact key={`${item}_${ind}`} {...item} />
+                        <MContact
+                          key={`${item}_${ind}`}
+                          text={item.text}
+                          href={item.href}
+                          imgSrc={item.imgSrc}
+                          custom={(ind + 2) * 1.5}
+                          variants={itemAnimation}
+                        />
                     ))}
-                </ul>
+                </motion.ul>
             </div>
-        </section>
+        </motion.section>
       </div>
     </div>
   );

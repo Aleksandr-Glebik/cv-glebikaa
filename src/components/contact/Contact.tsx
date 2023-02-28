@@ -1,16 +1,25 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import styles from './Contact.module.scss'
 import clsx from 'clsx';
+import { motion } from 'framer-motion'
 
 type ContactPropsType = {
     href: string
     imgSrc: string
     text: string
+    custom: number
+    variants: any
 }
 
-const Contact: React.FC<ContactPropsType> = ( { href, imgSrc, text} ) => {
+type Ref = HTMLDivElement | null
+
+const Contact: React.FC<ContactPropsType> = forwardRef<Ref, ContactPropsType>(( { href, imgSrc, text, custom, variants} ) => {
   return (
-    <li className={styles.list}>
+    <motion.li
+      className={styles.list}
+      custom={custom}
+      variants={variants}
+    >
         <a
             href={href}
             target="_blank"
@@ -20,8 +29,10 @@ const Contact: React.FC<ContactPropsType> = ( { href, imgSrc, text} ) => {
             <img src={imgSrc} alt="icon" className={styles.item__link_img}/>
             {text}
         </a>
-    </li>
+    </motion.li>
   )
-}
+})
 
 export default Contact
+
+export const MContact = motion(Contact)
