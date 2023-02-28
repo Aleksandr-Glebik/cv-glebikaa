@@ -2,17 +2,7 @@ import React from 'react';
 import styles from './About.module.scss';
 import { motion } from 'framer-motion';
 
-const contentAnimation = {
-  hidden: {
-    x: 300,
-    opacity: 0,
-  },
-  visible: (custom: number) => ({
-    x: 0,
-    opacity: 1,
-    transition: { delay: custom * 0.2 },
-  }),
-};
+import { contentAnimation } from '../../utils/amimation';
 
 const About: React.FC = () => {
   return (
@@ -24,6 +14,7 @@ const About: React.FC = () => {
           whileInView="visible"
           viewport={{
             amount: 0.2,
+            once: true
           }}>
           <motion.h2 className={styles.content__title} custom={1} variants={contentAnimation}>
             About me
