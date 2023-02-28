@@ -1,0 +1,39 @@
+@import '../../scss/_variables.scss';
+
+.list {
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+    &__link {
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: $white;
+        transition: all ease-in-out 0.35s;
+
+        &:hover {
+            transform: scale(1.05);
+            color: $gold;
+        }
+
+        &:active {
+            transform: scale(1.02);
+            color: $red;
+        }
+
+        &_img {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+        }
+    }
+}
