@@ -1,0 +1,62 @@
+@import '../../scss/_variables.scss';
+
+.list {
+    list-style-type: none;
+
+    .title {
+        font-family: 'Nunito', sans-serif;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: $white;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .link {
+        text-decoration: none;
+
+        &__img {
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: all ease-in-out 0.35s;
+
+            &:hover {
+                transform: scale(1.05);
+                filter: contrast(110%);
+                box-shadow: 10px 10px 5px 1px rgba($black, .4);
+            }
+        }
+    }
+
+    .info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        margin-top: 15px;
+
+        &__item {
+            width: 45px;
+            height: 40px;
+            object-fit: cover;
+            transition: all ease-in-out 0.35s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+

@@ -11,12 +11,13 @@ type ContactPropsType = {
     variants: any
 }
 
-type Ref = HTMLDivElement | null
+type Ref = HTMLLIElement | null
 
-const Contact: React.FC<ContactPropsType> = forwardRef<Ref, ContactPropsType>(( { href, imgSrc, text, custom, variants} ) => {
+const Contact: React.FC<ContactPropsType> = forwardRef<Ref, ContactPropsType>(( { href, imgSrc, text, custom, variants}, ref) => {
   return (
     <motion.li
       className={styles.list}
+      ref={ref}
       custom={custom}
       variants={variants}
     >
