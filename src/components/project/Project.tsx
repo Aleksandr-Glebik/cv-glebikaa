@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styles from './Project.module.scss'
+import { motion } from 'framer-motion'
+import { contentAnimation } from '../../utils/amimation';
 
 type projectsType = {
   id: number
@@ -8,11 +10,20 @@ type projectsType = {
   projectLink: string
   projectImg: string
   technologies: string[]
+  custom: number
+  variants: any
 }
 
-const Project: React.FC<projectsType> = ( { title, projectLink, projectImg, technologies } ) => {
+type Ref = HTMLLIElement | null
+
+const Project: React.FC<projectsType> = forwardRef<Ref, projectsType>(( { title, projectLink, projectImg, technologies, custom, variants },  ref) => {
   return (
-    <li className={styles.list}>
+    <motion.li
+      className={styles.list}
+      ref={ref}
+      custom={custom}
+      variants={variants}
+    >
       <h3 className={styles.title}>{title}</h3>
       <a
         href={projectLink}
@@ -21,18 +32,30 @@ const Project: React.FC<projectsType> = ( { title, projectLink, projectImg, tech
         className={styles.link}>
         <img src={projectImg} alt="photo_project" className={styles.link__img} />
       </a>
-      <div className={styles.info}>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{
+          amount: 0.2,
+          once: true
+        }}
+        className={styles.info}
+      >
         {technologies.map( (item, ind) => (
-          <img
+          <motion.img
             key={`${item}_${ind}`}
             src={item}
             alt="icon"
+            custom={(ind + 2) * 1.2}
+            variants={contentAnimation}
             className={styles.info__item}
           />
         ))}
-      </div>
-    </li>
+      </motion.div>
+    </motion.li>
   );
-};
+})
 
 export default Project;
+
+export const MProject = motion(Project)

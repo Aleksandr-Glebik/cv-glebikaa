@@ -1,8 +1,11 @@
 import React from 'react'
 import styles from './Projects.module.scss'
+import { motion } from 'framer-motion'
 
 import { projectsList } from '../../data/ProjectsData'
-import Project from '../../components/project/Project'
+import MProject from '../../components/project/Project'
+import { contentAnimation, itemAnimation } from '../../utils/amimation'
+
 
 const Projects: React.FC = () => {
   return (
@@ -10,17 +13,35 @@ const Projects: React.FC = () => {
       className={styles.wrapper}
     >
       <div className={styles.parallax}>
-        <section className={styles.content}>
-            <h2 className={styles.content__title}>Example Projects</h2>
-            <ul className={styles.content__items}>
+        <motion.section
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            amount: 0.2,
+            once: true
+          }}
+          className={styles.content}
+        >
+            <motion.h2
+              custom={1}
+              variants={contentAnimation}
+              className={styles.content__title}
+            >Example Projects</motion.h2>
+            <motion.ul
+              custom={2}
+              variants={contentAnimation}
+              className={styles.content__items}
+            >
                 {projectsList.map( ( item, ind ) => (
-                  <Project
+                  <MProject
                     key={`${item}_${ind}`}
+                    custom={(ind + 2) * 1.5}
+                    variants={itemAnimation}
                     {...item}
                   />
                 ))}
-            </ul>
-        </section>
+            </motion.ul>
+        </motion.section>
       </div>
     </div>
   )
