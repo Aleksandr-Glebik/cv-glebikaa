@@ -82,7 +82,7 @@ font-family: 'Shantell Sans', cursive;
         transform: translateX(0px) translateY(0px);
     }
     100%{
-        transform: translateX(100px) translateY(100px);
+        transform: translateX(100px) translateY(100px) scale(1.1);
     }
 }
 
@@ -91,7 +91,7 @@ font-family: 'Shantell Sans', cursive;
         transform: translateX(0px) translateY(0px);
     }
     100%{
-        transform: translateX(-100px) translateY(100px);
+        transform: translateX(-100px) translateY(100px) scale(1.05);
     }
 }
 
@@ -108,3 +108,47 @@ font-family: 'Shantell Sans', cursive;
         opacity:1;
     }
 }
+
+@media screen and (min-width: 1201px) and (max-width: 1380px) {
+    @keyframes AstroFly {
+        0% {
+            transform: translateX(0px) translateY(0px);
+        }
+        100%{
+            transform: translateX(40px) translateY(40px);
+        }
+    }
+
+    @keyframes iconFlyDown {
+        0% {
+            transform: translateX(0px) translateY(0px);
+        }
+        100%{
+            transform: translateX(80px) translateY(80px) scale(1.1);
+        }
+    }
+
+    @keyframes iconFlyLeft {
+        0% {
+            transform: translateX(0px) translateY(0px);
+        }
+        100%{
+            transform: translateX(-80px) translateY(80px) scale(1.05);
+        }
+    }
+
+    @keyframes textShow{
+        0%{
+            letter-spacing:1em;
+            transform:translateZ(250px);
+            filter:blur(12px);
+            opacity:0;
+        }
+        100%{
+            transform:translateZ(12px);
+            filter:blur(0);
+            opacity:1;
+        }
+    }
+}
+

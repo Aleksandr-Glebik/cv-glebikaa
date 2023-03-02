@@ -1,148 +1,336 @@
 @import '../../scss/_variables.scss';
 
 .wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/img/bgSpaceBlue.jpg');
+  background-size: cover;
+  z-index: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+
+  .backgroundStars {
     width: 100vw;
     height: 100vh;
-    background-image: url("../../assets/img/bgSpaceBlue.jpg");
+    background-image: url('../../assets/img/backgroundStars.png');
     background-size: cover;
-    z-index: 0;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
+    background-color: transparentize($black, 0.25);
+    z-index: 1;
+  }
+  .stars {
+    position: absolute;
+    top: calc(50% - (790px / 2));
+    left: calc(30% - (920px / 2));
+    width: 920px;
+    height: 790px;
+    background-image: url('../../assets/img/stars.png');
+    background-size: cover;
+    z-index: 15;
 
-    .backgroundStars {
-        width: 100vw;
-        height: 100vh;
-        background-image: url("../../assets/img/backgroundStars.png");
-        background-size: cover;
-        background-color: transparentize($black, 0.25);
-        z-index: 1;
-    }
-    .stars {
-        position: absolute;
-        top: calc(50% - 395px);
-        left: calc(30% - 460px);
-        width: 920px;
-        height: 790px;
-        background-image: url("../../assets/img/stars.png");
-        background-size: cover;
-        z-index: 15;
-    }
-    .astronaut {
-        position: absolute;
-        top: calc(50% - (700px / 2));
-        left: calc(32.5% - (700px / 2));
-        width: 700px;
-        height: 700px;
-        background-image: url("../../assets/img/astronaut.png");
-        background-size: cover;
-        z-index: 5;
-    }
-    .icon {
-        z-index: 10;
-        background-size: cover;
-    }
-    .html {
-        position: absolute;
-        top: calc(62% - 37.5px);
-        left: calc(13% - 32.5px);
-        width: 65px;
-        height: 75px;
-        background-image: url("../../assets/icon/html.png");
-    }
-    .css {
-        position: absolute;
-        top: calc(73% - 45px);
-        left: calc(42.5% - 50px);
-        width: 100px;
-        height: 90px;
-        background-image: url("../../assets/icon/css.png");
-    }
-    .js {
-        position: absolute;
-        top: calc(15% - 46px);
-        left: calc(21.5% - 40px);
-        width: 80px;
-        height: 92px;
-        background-image: url("../../assets/icon/js.png");
-    }
-    .react {
-        position: absolute;
-        top: calc(36% - 53px);
-        left: calc(13% - 60px);
-        width: 120px;
-        height: 106px;
-        background-image: url("../../assets/icon/react.png");
-    }
-    .redux {
-        position: absolute;
-        top: calc(11% - 50px);
-        left: calc(55% - 50px);
-        width: 100px;
-        height: 100px;
-        background-image: url("../../assets/icon/redux.png");
-    }
-    .sass {
-        position: absolute;
-        top: calc(36% - 58px);
-        left: calc(55.5% - 58px);
-        width: 116px;
-        height: 116px;
-        background-image: url("../../assets/icon/sass.png");
-    }
-    .webpack {
-        position: absolute;
-        top: calc(7% - 25px);
-        left: calc(33.5% - 25px);
-        width: 55px;
-        height: 55px;
-        background-image: url("../../assets/icon/webpack.png");
-    }
-    .github {
-        position: absolute;
-        top: calc(55% - 30px);
-        left: calc(50.5% - 30px);
-        width: 60px;
-        height: 60px;
-        background-image: url("../../assets/icon/githubWhite.png");
-    }
-    .figma {
-        position: absolute;
-        top: calc(75% - 35px);
-        left: calc(22% - 35px);
-        width: 70px;
-        height: 70px;
-        background-image: url("../../assets/icon/figma.png");
-    }
-    .text__container {
-        position: absolute;
-        top: 48%;
-        right: 7%;
-        z-index: 8;
-
-        &_title {
-            font-family: 'Shantell Sans', cursive;
-            font-size: 58px;
-            font-style: italic;
-            font-weight: 700;
-            letter-spacing: 2px;
-            color: $red;
-            text-align: center;
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(50% - (820px / 2));
+            left: calc(30% - (690px / 2));
+            width: 690px;
+            height: 820px;
         }
 
-        &_text {
-            font-family: 'Shantell Sans', cursive;
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(50% - (500px / 2));
+            left: calc(30% - (640px / 2));
+            width: 640px;
+            height: 500px;
+        }
+    }
+  .astronaut {
+    position: absolute;
+    top: calc(50% - (700px / 2));
+    left: calc(32.5% - (700px / 2));
+    width: 700px;
+    height: 700px;
+    background-image: url('../../assets/img/astronaut.png');
+    background-size: cover;
+    z-index: 5;
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(50% - (600px / 2));
+            left: calc(32.5% - (600px / 2));
+            width: 600px;
+            height: 600px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(50% - (480px / 2));
+            left: calc(32.5% - (480px / 2));
+            width: 480px;
+            height: 480px;
+        }
+  }
+  .icon {
+    z-index: 10;
+    background-size: cover;
+  }
+  .html {
+    position: absolute;
+    top: calc(62% - (75px / 2));
+    left: calc(13% - (65px / 2));
+    width: 65px;
+    height: 75px;
+    background-image: url('../../assets/icon/html.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(62% - (65px / 2));
+            left: calc(13% - (55px / 2));
+            width: 55px;
+            height: 65px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(62% - (55px / 2));
+            left: calc(13% - (48px / 2));
+            width: 48px;
+            height: 55px;
+        }
+  }
+  .css {
+    position: absolute;
+    top: calc(73% - (90px / 2));
+    left: calc(42.5% - (100px / 2));
+    width: 100px;
+    height: 90px;
+    background-image: url('../../assets/icon/css.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(73% - (80px / 2));
+            left: calc(42.5% - (90px / 2));
+            width: 90px;
+            height: 80px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(73% - (60px / 2));
+            left: calc(42.5% - (70px / 2));
+            width: 70px;
+            height: 60px;
+        }
+  }
+  .js {
+    position: absolute;
+    top: calc(15% - (90px / 2));
+    left: calc(21.5% - (80px / 2));
+    width: 80px;
+    height: 90px;
+    background-image: url('../../assets/icon/js.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(15% - (80px / 2));
+            left: calc(21.5% - (70px / 2));
+            width: 70px;
+            height: 80px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(15% - (60px / 2));
+            left: calc(21.5% - (53px / 2));
+            width: 53px;
+            height: 60px;
+        }
+  }
+  .react {
+    position: absolute;
+    top: calc(36% - (106px / 2));
+    left: calc(13% - (120px / 2));
+    width: 120px;
+    height: 106px;
+    background-image: url('../../assets/icon/react.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(36% - (86px / 2));
+            left: calc(13% - (100px / 2));
+            width: 100px;
+            height: 86px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(36% - (70px / 2));
+            left: calc(13% - (80px / 2));
+            width: 80px;
+            height: 70px;
+        }
+  }
+  .redux {
+    position: absolute;
+    top: calc(11% - (100px / 2));
+    left: calc(55% - (100px / 2));
+    width: 100px;
+    height: 100px;
+    background-image: url('../../assets/icon/redux.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(11% - (90px / 2));
+            left: calc(55% - (90px / 2));
+            width: 90px;
+            height: 90px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(11% - (70px / 2));
+            left: calc(55% - (70px / 2));
+            width: 70px;
+            height: 70px;
+        }
+  }
+  .sass {
+    position: absolute;
+    top: calc(36% - (116px / 2));
+    left: calc(55.5% - (116px / 2));
+    width: 116px;
+    height: 116px;
+    background-image: url('../../assets/icon/sass.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(36% - (96px / 2));
+            left: calc(55.5% - (96px / 2));
+            width: 96px;
+            height: 96px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(36% - (76px / 2));
+            left: calc(55.5% - (76px / 2));
+            width: 76px;
+            height: 76px;
+        }
+  }
+  .webpack {
+    position: absolute;
+    top: calc(7% - (55px / 2));
+    left: calc(33.5% - (55px / 2));
+    width: 55px;
+    height: 55px;
+    background-image: url('../../assets/icon/webpack.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(7% - (45px / 2));
+            left: calc(33.5% - (45px / 2));
+            width: 45px;
+            height: 45px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(7% - (40px / 2));
+            left: calc(33.5% - (40px / 2));
+            width: 40px;
+            height: 40px;
+        }
+  }
+  .github {
+    position: absolute;
+    top: calc(55% - (60px / 2));
+    left: calc(50.5% - (60px / 2));
+    width: 60px;
+    height: 60px;
+    background-image: url('../../assets/icon/githubWhite.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(55% - (50px / 2));
+            left: calc(50.5% - (50px / 2));
+            width: 50px;
+            height: 50px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(55% - (40px / 2));
+            left: calc(50.5% - (40px / 2));
+            width: 40px;
+            height: 40px;
+        }
+  }
+  .figma {
+    position: absolute;
+    top: calc(75% - (70px / 2));
+    left: calc(22% - (70px / 2));
+    width: 70px;
+    height: 70px;
+    background-image: url('../../assets/icon/figma.png');
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            top: calc(75% - (55px / 2));
+            left: calc(22% - (55px / 2));
+            width: 55px;
+            height: 55px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            top: calc(75% - (45px / 2));
+            left: calc(22% - (45px / 2));
+            width: 45px;
+            height: 45px;
+        }
+  }
+  .text__container {
+    position: absolute;
+    top: 48%;
+    right: 7%;
+    z-index: 8;
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            right: 2%;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            right: 1%;
+        }
+
+    &_title {
+      font-family: 'Shantell Sans', cursive;
+      font-size: 58px;
+      font-style: italic;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: $red;
+      text-align: center;
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
             font-size: 48px;
-            font-style: italic;
-            font-weight: 700;
-            letter-spacing: 2px;
-            color: $gold;
-            text-align: center;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            font-size: 38px;
         }
     }
+
+    &_text {
+      font-family: 'Shantell Sans', cursive;
+      font-size: 48px;
+      font-style: italic;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: $gold;
+      text-align: center;
+
+        @media screen and (min-width: 1381px) and (max-width: 1580px) {
+            font-size: 38px;
+        }
+
+        @media screen and (min-width: 1201px) and (max-width: 1380px) {
+            font-size: 32px;
+        }
+    }
+  }
 }
 
-
-
+// @media screen and (min-width: 1201px) and (max-width: 1380px) {
+// }
+// @media screen and (min-width: 1201px) and (max-width: 1280px) {
+// }
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}
