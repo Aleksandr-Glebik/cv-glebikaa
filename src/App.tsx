@@ -1,7 +1,7 @@
 import React from 'react';
 // import Home from './pages/Home/Home';
-import SkillsComp from './pages/Skills/SkillsComp';
-// import About from './pages/About/About';
+// import SkillsComp from './pages/Skills/SkillsComp';
+import About from './pages/About/About';
 // import Contacts from './pages/Contacts/Contacts';
 // import Projects from './pages/Projects/Projects';
 // import Languages from './pages/Languages/Languages';
@@ -11,8 +11,8 @@ const App: React.FC = () => {
   return (
     <div className='wrapper'>
       {/* <Home /> */}
-      <SkillsComp />
-      {/* <About /> */}
+      {/* <SkillsComp /> */}
+      <About />
       {/* <Contacts /> */}
       {/* <Projects /> */}
       {/* <Languages /> */}
