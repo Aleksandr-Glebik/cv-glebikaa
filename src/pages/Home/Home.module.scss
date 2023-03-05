@@ -30,20 +30,55 @@
     background-size: cover;
     z-index: 15;
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(50% - (820px / 2));
-            left: calc(30% - (690px / 2));
-            width: 690px;
-            height: 820px;
-        }
-
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(50% - (500px / 2));
-            left: calc(30% - (640px / 2));
-            width: 640px;
-            height: 500px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(50% - (820px / 2));
+      left: calc(30% - (690px / 2));
+      width: 690px;
+      height: 820px;
     }
+
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(50% - (500px / 2));
+      left: calc(30% - (640px / 2));
+      width: 640px;
+      height: 500px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(50% - (400px / 2));
+      left: calc(30% - (500px / 2));
+      width: 500px;
+      height: 400px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(50% - (310px / 2));
+      left: calc(30% - (410px / 2));
+      width: 410px;
+      height: 310px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(50% - (280px / 2));
+      left: calc(30% - (380px / 2));
+      width: 380px;
+      height: 280px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(50% - (210px / 2));
+      left: calc(30% - (310px / 2));
+      width: 310px;
+      height: 210px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(50% - (180px / 2));
+      left: calc(30% - (200px / 2));
+      width: 200px;
+      height: 180px;
+    }
+  }
   .astronaut {
     position: absolute;
     top: calc(50% - (700px / 2));
@@ -54,19 +89,54 @@
     background-size: cover;
     z-index: 5;
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(50% - (600px / 2));
-            left: calc(32.5% - (600px / 2));
-            width: 600px;
-            height: 600px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(50% - (600px / 2));
+      left: calc(32.5% - (600px / 2));
+      width: 600px;
+      height: 600px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(50% - (480px / 2));
-            left: calc(32.5% - (480px / 2));
-            width: 480px;
-            height: 480px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(50% - (480px / 2));
+      left: calc(32.5% - (480px / 2));
+      width: 480px;
+      height: 480px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(50% - (400px / 2));
+      left: calc(32.5% - (400px / 2));
+      width: 400px;
+      height: 400px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(50% - (320px / 2));
+      left: calc(32.5% - (320px / 2));
+      width: 320px;
+      height: 320px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(50% - (300px / 2));
+      left: calc(32.5% - (300px / 2));
+      width: 300px;
+      height: 300px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(50% - (210px / 2));
+      left: calc(32.5% - (210px / 2));
+      width: 210px;
+      height: 210px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(50% - (140px / 2));
+      left: calc(32.5% - (140px / 2));
+      width: 140px;
+      height: 140px;
+    }
   }
   .icon {
     z-index: 10;
@@ -80,19 +150,54 @@
     height: 75px;
     background-image: url('../../assets/icon/html.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(62% - (65px / 2));
-            left: calc(13% - (55px / 2));
-            width: 55px;
-            height: 65px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(62% - (65px / 2));
+      left: calc(13% - (55px / 2));
+      width: 55px;
+      height: 65px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(62% - (55px / 2));
-            left: calc(13% - (48px / 2));
-            width: 48px;
-            height: 55px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(62% - (55px / 2));
+      left: calc(13% - (48px / 2));
+      width: 48px;
+      height: 55px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(62% - (37px / 2));
+      left: calc(13% - (32px / 2));
+      width: 32px;
+      height: 37px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(62% - (32px / 2));
+      left: calc(13% - (28px / 2));
+      width: 28px;
+      height: 32px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(62% - (28px / 2));
+      left: calc(13% - (24px / 2));
+      width: 24px;
+      height: 28px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(62% - (24px / 2));
+      left: calc(13% - (20px / 2));
+      width: 20px;
+      height: 24px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(62% - (14px / 2));
+      left: calc(13% - (10px / 2));
+      width: 10px;
+      height: 14px;
+    }
   }
   .css {
     position: absolute;
@@ -102,19 +207,54 @@
     height: 90px;
     background-image: url('../../assets/icon/css.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(73% - (80px / 2));
-            left: calc(42.5% - (90px / 2));
-            width: 90px;
-            height: 80px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(73% - (80px / 2));
+      left: calc(42.5% - (90px / 2));
+      width: 90px;
+      height: 80px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(73% - (60px / 2));
-            left: calc(42.5% - (70px / 2));
-            width: 70px;
-            height: 60px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(73% - (60px / 2));
+      left: calc(42.5% - (70px / 2));
+      width: 70px;
+      height: 60px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(73% - (45px / 2));
+      left: calc(42.5% - (55px / 2));
+      width: 55px;
+      height: 45px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(73% - (35px / 2));
+      left: calc(42.5% - (45px / 2));
+      width: 45px;
+      height: 35px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(73% - (32px / 2));
+      left: calc(42.5% - (42px / 2));
+      width: 42px;
+      height: 32px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(73% - (28px / 2));
+      left: calc(42.5% - (38px / 2));
+      width: 38px;
+      height: 28px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(73% - (18px / 2));
+      left: calc(42.5% - (28px / 2));
+      width: 28px;
+      height: 18px;
+    }
   }
   .js {
     position: absolute;
@@ -124,19 +264,54 @@
     height: 90px;
     background-image: url('../../assets/icon/js.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(15% - (80px / 2));
-            left: calc(21.5% - (70px / 2));
-            width: 70px;
-            height: 80px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(15% - (80px / 2));
+      left: calc(21.5% - (70px / 2));
+      width: 70px;
+      height: 80px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(15% - (60px / 2));
-            left: calc(21.5% - (53px / 2));
-            width: 53px;
-            height: 60px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(15% - (60px / 2));
+      left: calc(21.5% - (53px / 2));
+      width: 53px;
+      height: 60px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(15% - (37px / 2));
+      left: calc(21.5% - (33px / 2));
+      width: 33px;
+      height: 37px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(15% - (33px / 2));
+      left: calc(21.5% - (28px / 2));
+      width: 28px;
+      height: 33px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(15% - (28px / 2));
+      left: calc(21.5% - (25px / 2));
+      width: 25px;
+      height: 28px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(15% - (24px / 2));
+      left: calc(21.5% - (21px / 2));
+      width: 21px;
+      height: 24px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(15% - (14px / 2));
+      left: calc(21.5% - (11px / 2));
+      width: 11px;
+      height: 14px;
+    }
   }
   .react {
     position: absolute;
@@ -146,19 +321,54 @@
     height: 106px;
     background-image: url('../../assets/icon/react.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(36% - (86px / 2));
-            left: calc(13% - (100px / 2));
-            width: 100px;
-            height: 86px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(36% - (86px / 2));
+      left: calc(13% - (100px / 2));
+      width: 100px;
+      height: 86px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(36% - (70px / 2));
-            left: calc(13% - (80px / 2));
-            width: 80px;
-            height: 70px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(36% - (70px / 2));
+      left: calc(13% - (80px / 2));
+      width: 80px;
+      height: 70px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(36% - (53px / 2));
+      left: calc(13% - (60px / 2));
+      width: 60px;
+      height: 53px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(36% - (43px / 2));
+      left: calc(13% - (50px / 2));
+      width: 50px;
+      height: 43px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(36% - (40px / 2));
+      left: calc(13% - (45px / 2));
+      width: 45px;
+      height: 40px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(36% - (35px / 2));
+      left: calc(13% - (40px / 2));
+      width: 40px;
+      height: 35px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(36% - (25px / 2));
+      left: calc(13% - (30px / 2));
+      width: 30px;
+      height: 25px;
+    }
   }
   .redux {
     position: absolute;
@@ -168,19 +378,54 @@
     height: 100px;
     background-image: url('../../assets/icon/redux.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(11% - (90px / 2));
-            left: calc(55% - (90px / 2));
-            width: 90px;
-            height: 90px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(11% - (90px / 2));
+      left: calc(55% - (90px / 2));
+      width: 90px;
+      height: 90px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(11% - (70px / 2));
-            left: calc(55% - (70px / 2));
-            width: 70px;
-            height: 70px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(11% - (70px / 2));
+      left: calc(55% - (70px / 2));
+      width: 70px;
+      height: 70px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(11% - (50px / 2));
+      left: calc(55% - (50px / 2));
+      width: 50px;
+      height: 50px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(11% - (40px / 2));
+      left: calc(55% - (40px / 2));
+      width: 40px;
+      height: 40px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(11% - (35px / 2));
+      left: calc(55% - (35px / 2));
+      width: 35px;
+      height: 35px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(11% - (30px / 2));
+      left: calc(55% - (30px / 2));
+      width: 30px;
+      height: 30px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(11% - (20px / 2));
+      left: calc(55% - (20px / 2));
+      width: 20px;
+      height: 20px;
+    }
   }
   .sass {
     position: absolute;
@@ -190,19 +435,54 @@
     height: 116px;
     background-image: url('../../assets/icon/sass.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(36% - (96px / 2));
-            left: calc(55.5% - (96px / 2));
-            width: 96px;
-            height: 96px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(36% - (96px / 2));
+      left: calc(55.5% - (96px / 2));
+      width: 96px;
+      height: 96px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(36% - (76px / 2));
-            left: calc(55.5% - (76px / 2));
-            width: 76px;
-            height: 76px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(36% - (76px / 2));
+      left: calc(55.5% - (76px / 2));
+      width: 76px;
+      height: 76px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(36% - (56px / 2));
+      left: calc(55.5% - (56px / 2));
+      width: 56px;
+      height: 56px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(36% - (46px / 2));
+      left: calc(55.5% - (46px / 2));
+      width: 46px;
+      height: 46px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(36% - (40px / 2));
+      left: calc(55.5% - (40px / 2));
+      width: 40px;
+      height: 40px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(36% - (36px / 2));
+      left: calc(55.5% - (36px / 2));
+      width: 36px;
+      height: 36px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(36% - (26px / 2));
+      left: calc(55.5% - (26px / 2));
+      width: 26px;
+      height: 26px;
+    }
   }
   .webpack {
     position: absolute;
@@ -212,19 +492,54 @@
     height: 55px;
     background-image: url('../../assets/icon/webpack.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(7% - (45px / 2));
-            left: calc(33.5% - (45px / 2));
-            width: 45px;
-            height: 45px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(7% - (45px / 2));
+      left: calc(33.5% - (45px / 2));
+      width: 45px;
+      height: 45px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(7% - (40px / 2));
-            left: calc(33.5% - (40px / 2));
-            width: 40px;
-            height: 40px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(7% - (40px / 2));
+      left: calc(33.5% - (40px / 2));
+      width: 40px;
+      height: 40px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(7% - (40px / 2));
+      left: calc(33.5% - (40px / 2));
+      width: 40px;
+      height: 40px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(7% - (36px / 2));
+      left: calc(33.5% - (36px / 2));
+      width: 36px;
+      height: 36px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(7% - (32px / 2));
+      left: calc(33.5% - (32px / 2));
+      width: 32px;
+      height: 32px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(7% - (28px / 2));
+      left: calc(33.5% - (28px / 2));
+      width: 28px;
+      height: 28px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(7% - (18px / 2));
+      left: calc(33.5% - (18px / 2));
+      width: 18px;
+      height: 18px;
+    }
   }
   .github {
     position: absolute;
@@ -234,19 +549,54 @@
     height: 60px;
     background-image: url('../../assets/icon/githubWhite.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(55% - (50px / 2));
-            left: calc(50.5% - (50px / 2));
-            width: 50px;
-            height: 50px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(55% - (50px / 2));
+      left: calc(50.5% - (50px / 2));
+      width: 50px;
+      height: 50px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(55% - (40px / 2));
-            left: calc(50.5% - (40px / 2));
-            width: 40px;
-            height: 40px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(55% - (40px / 2));
+      left: calc(50.5% - (40px / 2));
+      width: 40px;
+      height: 40px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(55% - (35px / 2));
+      left: calc(50.5% - (35px / 2));
+      width: 35px;
+      height: 35px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(55% - (35px / 2));
+      left: calc(50.5% - (35px / 2));
+      width: 35px;
+      height: 35px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(55% - (32px / 2));
+      left: calc(50.5% - (32px / 2));
+      width: 32px;
+      height: 32px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(55% - (28px / 2));
+      left: calc(50.5% - (28px / 2));
+      width: 28px;
+      height: 28px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(55% - (18px / 2));
+      left: calc(50.5% - (18px / 2));
+      width: 18px;
+      height: 18px;
+    }
   }
   .figma {
     position: absolute;
@@ -256,19 +606,54 @@
     height: 70px;
     background-image: url('../../assets/icon/figma.png');
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            top: calc(75% - (55px / 2));
-            left: calc(22% - (55px / 2));
-            width: 55px;
-            height: 55px;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      top: calc(75% - (55px / 2));
+      left: calc(22% - (55px / 2));
+      width: 55px;
+      height: 55px;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            top: calc(75% - (45px / 2));
-            left: calc(22% - (45px / 2));
-            width: 45px;
-            height: 45px;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      top: calc(75% - (45px / 2));
+      left: calc(22% - (45px / 2));
+      width: 45px;
+      height: 45px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      top: calc(75% - (45px / 2));
+      left: calc(22% - (45px / 2));
+      width: 45px;
+      height: 45px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      top: calc(75% - (42px / 2));
+      left: calc(22% - (42px / 2));
+      width: 42px;
+      height: 42px;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      top: calc(75% - (38px / 2));
+      left: calc(22% - (38px / 2));
+      width: 38px;
+      height: 38px;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      top: calc(75% - (30px / 2));
+      left: calc(22% - (30px / 2));
+      width: 30px;
+      height: 30px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      top: calc(75% - (20px / 2));
+      left: calc(22% - (20px / 2));
+      width: 20px;
+      height: 20px;
+    }
   }
   .text__container {
     position: absolute;
@@ -276,13 +661,33 @@
     right: 7%;
     z-index: 8;
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            right: 2%;
-        }
+    @media screen and (min-width: 1381px) and (max-width: 1580px) {
+      right: 2%;
+    }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            right: 1%;
-        }
+    @media screen and (min-width: 1201px) and (max-width: 1380px) {
+      right: 1%;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      right: 1%;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      right: 1%;
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 768px) {
+      right: 2%;
+    }
+
+    @media screen and (min-width: 461px) and (max-width: 580px) {
+      right: 1%;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 460px) {
+      right: 1%;
+    }
 
     &_title {
       font-family: 'Shantell Sans', cursive;
@@ -293,13 +698,33 @@
       color: $red;
       text-align: center;
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            font-size: 48px;
-        }
+      @media screen and (min-width: 1381px) and (max-width: 1580px) {
+        font-size: 48px;
+      }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            font-size: 38px;
-        }
+      @media screen and (min-width: 1201px) and (max-width: 1380px) {
+        font-size: 38px;
+      }
+
+      @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        font-size: 32px;
+      }
+
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        font-size: 26px;
+      }
+
+      @media screen and (min-width: 581px) and (max-width: 768px) {
+        font-size: 22px;
+      }
+
+      @media screen and (min-width: 461px) and (max-width: 580px) {
+        font-size: 14px;
+      }
+
+      @media screen and (min-width: 320px) and (max-width: 460px) {
+        font-size: 8px;
+      }
     }
 
     &_text {
@@ -311,26 +736,33 @@
       color: $gold;
       text-align: center;
 
-        @media screen and (min-width: 1381px) and (max-width: 1580px) {
-            font-size: 38px;
-        }
+      @media screen and (min-width: 1381px) and (max-width: 1580px) {
+        font-size: 38px;
+      }
 
-        @media screen and (min-width: 1201px) and (max-width: 1380px) {
-            font-size: 32px;
-        }
+      @media screen and (min-width: 1201px) and (max-width: 1380px) {
+        font-size: 32px;
+      }
+
+      @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        font-size: 28px;
+      }
+
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        font-size: 22px;
+      }
+
+      @media screen and (min-width: 581px) and (max-width: 768px) {
+        font-size: 18px;
+      }
+
+      @media screen and (min-width: 461px) and (max-width: 580px) {
+        font-size: 10px;
+      }
+
+      @media screen and (min-width: 320px) and (max-width: 460px) {
+        font-size: 6px;
+      }
     }
   }
-}
-
-// @media screen and (min-width: 1201px) and (max-width: 1380px) {
-// }
-// @media screen and (min-width: 1201px) and (max-width: 1280px) {
-// }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
 }
