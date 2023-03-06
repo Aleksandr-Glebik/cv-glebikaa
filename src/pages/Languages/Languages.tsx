@@ -28,7 +28,7 @@ const Languages: React.FC = () => {
             <h3 className={styles.content__footer_text}>&copy; Aleksandr Glebik 2023</h3>
             <a
               className={styles.content__footer_link}
-              href="https://.pngtree.com"
+              href="https://ru.pngtree.com/"
               target="_blank"
               rel="noreferrer">
               ru.pngtree.com
