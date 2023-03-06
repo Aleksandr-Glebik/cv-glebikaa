@@ -18,7 +18,7 @@ const SkillsComp: React.FC = () => {
           whileInView="visible"
           viewport={{
             amount: 0.2,
-            // once: true
+            once: true
           }}
           className={styles.container}
         >

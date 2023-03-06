@@ -4,6 +4,9 @@
     width: 100%;
     height: 100%;
 
+    @media screen and (min-width: 1328px) {
+        height: 80%;
+    }
     @media screen and (min-width: 581px) and (max-width: 841px) {
         height: 150%;
     }

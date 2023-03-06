@@ -86,7 +86,7 @@
             }
 
             &__text {
-                width: 80%;
+                width: 70%;
                 font-family: 'Nunito', sans-serif;
                 font-size: 28px;
                 line-height: 1.5;
@@ -100,6 +100,7 @@
 
                 @media screen and (min-width: 1381px) and (max-width: 1580px) {
                     margin: 15px;
+                    width: 80%;
                 }
                 @media screen and (min-width: 1201px) and (max-width: 1380px) {
                     width: 85%;
