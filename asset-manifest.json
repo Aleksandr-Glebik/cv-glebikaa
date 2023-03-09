@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/cv-glebikaa/static/css/main.a44b8737.css",
+    "main.js": "/cv-glebikaa/static/js/main.9d83f0cc.js",
+    "static/media/backgroundStars.png": "/cv-glebikaa/static/media/backgroundStars.9157db2468810875d517.png",
+    "static/media/astro.png": "/cv-glebikaa/static/media/astro.5e300fec23192aaa8e35.png",
+    "static/media/astronautCase.png": "/cv-glebikaa/static/media/astronautCase.6b8c372b0d2066ef02a1.png",
+    "static/media/moon2.png": "/cv-glebikaa/static/media/moon2.ab57e42ae94309689e38.png",
+    "static/media/astronaut.png": "/cv-glebikaa/static/media/astronaut.8a9c4e0290eaa59897f7.png",
+    "static/media/bgSpaceBlue.jpg": "/cv-glebikaa/static/media/bgSpaceBlue.f10729b3bd704561b4f6.jpg",
+    "static/media/stars.png": "/cv-glebikaa/static/media/stars.afc974b0bc569f1c719b.png",
+    "static/media/portfolio.jpg": "/cv-glebikaa/static/media/portfolio.7221a802776663807efe.jpg",
+    "static/media/onlineStore.jpg": "/cv-glebikaa/static/media/onlineStore.2fc726bb72fc37b5c272.jpg",
+    "static/media/todoList.jpg": "/cv-glebikaa/static/media/todoList.563178d21daa0cc9ec64.jpg",
+    "static/media/js.png": "/cv-glebikaa/static/media/js.83903b30822753b81ed1.png",
+    "static/media/webpack.png": "/cv-glebikaa/static/media/webpack.b86d69f11b9d29c9cd5b.png",
+    "static/media/sass.png": "/cv-glebikaa/static/media/sass.a2591e27bc692562995c.png",
+    "static/media/html.png": "/cv-glebikaa/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/phone.png": "/cv-glebikaa/static/media/phone.5178a120ad7754efd9d2.png",
+    "static/media/react.png": "/cv-glebikaa/static/media/react.80045de70681e3171446.png",
+    "static/media/eMail.png": "/cv-glebikaa/static/media/eMail.90b41677b9a680f392e9.png",
+    "static/media/redux.png": "/cv-glebikaa/static/media/redux.b426d97de12d4dab1c06.png",
+    "static/media/linkedIn.png": "/cv-glebikaa/static/media/linkedIn.668fe687f5d2082add1c.png",
+    "static/media/javascriptSq.png": "/cv-glebikaa/static/media/javascriptSq.36bb4d118385f9b55177.png",
+    "static/media/figma.png": "/cv-glebikaa/static/media/figma.257e6178b0dce1bce576.png",
+    "static/media/css.png": "/cv-glebikaa/static/media/css.99426a611bd5b768e71d.png",
+    "static/media/githubWhite.png": "/cv-glebikaa/static/media/githubWhite.987334e9f782cc505f25.png",
+    "static/media/typeScript.png": "/cv-glebikaa/static/media/typeScript.bb13ebd9561a6ee645c2.png",
+    "static/media/html5.png": "/cv-glebikaa/static/media/html5.918d2bd3a1053b101768.png",
+    "index.html": "/cv-glebikaa/index.html",
+    "main.a44b8737.css.map": "/cv-glebikaa/static/css/main.a44b8737.css.map",
+    "main.9d83f0cc.js.map": "/cv-glebikaa/static/js/main.9d83f0cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a44b8737.css",
+    "static/js/main.9d83f0cc.js"
+  ]
+}
