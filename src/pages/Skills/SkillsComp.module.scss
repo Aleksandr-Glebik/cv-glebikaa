@@ -6,7 +6,8 @@
 
     .parallax {
         background-image: url('../../assets/img/bgSpaceBlue.jpg');
-        min-height: 100vh;
+        width: 100%;
+        height: 100%;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -15,7 +16,8 @@
     }
 
     .container {
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -58,22 +60,24 @@
                 width: 300px;
                 height: 300px;
                 order: 1;
-                margin-top: 20px;
+                margin-top: 40px;
             }
             @media screen and (min-width: 581px) and (max-width: 768px) {
                 width: 260px;
                 height: 260px;
                 order: 1;
-                margin-top: 20px;
+                margin-top: 40px;
             }
             @media screen and (min-width: 461px) and (max-width: 580px) {
                 width: 220px;
                 height: 220px;
+                margin-top: 40px;
                 order: 1;
             }
             @media screen and (min-width: 320px) and (max-width: 460px) {
                 width: 220px;
                 height: 220px;
+                margin-top: 40px;
                 order: 1;
             }
 
@@ -88,13 +92,13 @@
             align-items: center;
 
             @media screen and (min-width: 769px) and (max-width: 1024px) {
-                width: 80%;
+                width: 55%;
             }
             @media screen and (min-width: 581px) and (max-width: 768px) {
-                width: 80%;
+                width: 65%;
             }
             @media screen and (min-width: 461px) and (max-width: 580px) {
-                width: 90%;
+                width: 70%;
             }
             @media screen and (min-width: 320px) and (max-width: 460px) {
                 width: 90%;
@@ -139,10 +143,19 @@
 
             &_items {
                 width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
-                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+
+                @media screen and (min-width: 320px) and (max-width: 460px) {
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(5, 1fr);
+                    grid-column-gap: 10px;
+                    grid-row-gap: 10px;
+                }
+
             }
         }
 

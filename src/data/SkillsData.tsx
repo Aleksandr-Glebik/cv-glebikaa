@@ -66,7 +66,7 @@ export const skillsList: skillItemType[] = [
       text: 'WebPack'
     },
     {
-      id: 9,
+      id: 8,
       name: 'github',
       path: gitSrc,
       text: 'Git'
