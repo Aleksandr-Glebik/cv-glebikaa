@@ -140,7 +140,7 @@ font-family: 'Shantell Sans', cursive;
     @keyframes textShow{
         0%{
             letter-spacing:1em;
-            transform:translateZ(250px);
+            transform:translateZ(300px);
             filter:blur(12px);
             opacity:0;
         }
@@ -183,7 +183,7 @@ font-family: 'Shantell Sans', cursive;
     @keyframes textShow{
         0%{
             letter-spacing:1em;
-            transform:translateZ(200px);
+            transform:translateZ(300px);
             filter:blur(12px);
             opacity:0;
         }
@@ -226,7 +226,7 @@ font-family: 'Shantell Sans', cursive;
     @keyframes textShow{
         0%{
             letter-spacing:1em;
-            transform:translateZ(100px);
+            transform:translateZ(300px);
             filter:blur(12px);
             opacity:0;
         }
@@ -269,7 +269,7 @@ font-family: 'Shantell Sans', cursive;
     @keyframes textShow{
         0%{
             letter-spacing:1em;
-            transform:translateZ(120px);
+            transform:translateZ(400px);
             filter:blur(12px);
             opacity:0;
         }
@@ -325,12 +325,52 @@ font-family: 'Shantell Sans', cursive;
 }
 
 @media screen and (min-width: 320px) and (max-width: 460px) {
+    // @keyframes AstroFly {
+    //     0% {
+    //         transform: translateX(0px) translateY(0px);
+    //     }
+    //     100%{
+    //         transform: translateX(12px) translateY(12px);
+    //     }
+    // }
+
+    // @keyframes iconFlyDown {
+    //     0% {
+    //         transform: translateX(0px) translateY(0px);
+    //     }
+    //     100%{
+    //         transform: translateX(15px) translateY(15px) scale(1.1);
+    //     }
+    // }
+
+    // @keyframes iconFlyLeft {
+    //     0% {
+    //         transform: translateX(0px) translateY(0px);
+    //     }
+    //     100%{
+    //         transform: translateX(-15px) translateY(15px) scale(1.05);
+    //     }
+    // }
+
+    // @keyframes textShow{
+    //     0%{
+    //         letter-spacing:1em;
+    //         transform:translateZ(80px);
+    //         filter:blur(12px);
+    //         opacity:0;
+    //     }
+    //     100%{
+    //         transform:translateZ(12px);
+    //         filter:blur(0);
+    //         opacity:1;
+    //     }
+    // }
     @keyframes AstroFly {
         0% {
             transform: translateX(0px) translateY(0px);
         }
         100%{
-            transform: translateX(12px) translateY(12px);
+            transform: translateX(15px) translateY(15px);
         }
     }
 
@@ -339,7 +379,7 @@ font-family: 'Shantell Sans', cursive;
             transform: translateX(0px) translateY(0px);
         }
         100%{
-            transform: translateX(15px) translateY(15px) scale(1.1);
+            transform: translateX(22px) translateY(22px) scale(1.1);
         }
     }
 
@@ -348,14 +388,14 @@ font-family: 'Shantell Sans', cursive;
             transform: translateX(0px) translateY(0px);
         }
         100%{
-            transform: translateX(-15px) translateY(15px) scale(1.05);
+            transform: translateX(-22px) translateY(22px) scale(1.05);
         }
     }
 
     @keyframes textShow{
         0%{
             letter-spacing:1em;
-            transform:translateZ(80px);
+            transform:translateZ(300px);
             filter:blur(12px);
             opacity:0;
         }

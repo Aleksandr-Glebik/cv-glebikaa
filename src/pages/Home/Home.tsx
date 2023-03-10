@@ -52,7 +52,6 @@ const Home: React.FC = () => {
       <CSSTransition in={isVisible} classNames={'iconFlyLeft'} timeout={6000}>
         <div className={clsx(styles.github, styles.icon)}></div>
       </CSSTransition>
-
       <CSSTransition in={isVisible} classNames={'iconFlyLeft'} timeout={6000}>
         <div className={clsx(styles.text__container)}>
           <CSSTransition in={isVisible} classNames={'textShow'} timeout={6000}>
