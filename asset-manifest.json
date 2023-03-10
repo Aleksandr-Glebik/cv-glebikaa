@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-glebikaa/static/css/main.a44b8737.css",
-    "main.js": "/cv-glebikaa/static/js/main.9d83f0cc.js",
+    "main.css": "/cv-glebikaa/static/css/main.c2abf355.css",
+    "main.js": "/cv-glebikaa/static/js/main.7db22a33.js",
     "static/media/backgroundStars.png": "/cv-glebikaa/static/media/backgroundStars.9157db2468810875d517.png",
     "static/media/astro.png": "/cv-glebikaa/static/media/astro.5e300fec23192aaa8e35.png",
     "static/media/astronautCase.png": "/cv-glebikaa/static/media/astronautCase.6b8c372b0d2066ef02a1.png",
@@ -28,11 +28,11 @@
     "static/media/typeScript.png": "/cv-glebikaa/static/media/typeScript.bb13ebd9561a6ee645c2.png",
     "static/media/html5.png": "/cv-glebikaa/static/media/html5.918d2bd3a1053b101768.png",
     "index.html": "/cv-glebikaa/index.html",
-    "main.a44b8737.css.map": "/cv-glebikaa/static/css/main.a44b8737.css.map",
-    "main.9d83f0cc.js.map": "/cv-glebikaa/static/js/main.9d83f0cc.js.map"
+    "main.c2abf355.css.map": "/cv-glebikaa/static/css/main.c2abf355.css.map",
+    "main.7db22a33.js.map": "/cv-glebikaa/static/js/main.7db22a33.js.map"
   },
   "entrypoints": [
-    "static/css/main.a44b8737.css",
-    "static/js/main.9d83f0cc.js"
+    "static/css/main.c2abf355.css",
+    "static/js/main.7db22a33.js"
   ]
 }
