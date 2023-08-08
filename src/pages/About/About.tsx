@@ -20,23 +20,20 @@ const About: React.FC = () => {
             About me
           </motion.h2>
           <motion.p className={styles.content__text} custom={3} variants={contentAnimation}>
-            I am a freelance front-end developer, in the IT field for about 2 years.
+            I am a freelance front-end developer with over 2 years of experience in IT.
             <br />
-            My stack: TypeScript, Javascript, React, Redux Toolkit.
+            My stack: TypeScript, Javascript, React, Redux, HTML, CSS, SCSS.
           </motion.p>
           <motion.p className={styles.content__text} custom={4} variants={contentAnimation}>
-            - creating landing pages according to the customer's layout (Perfect Pixel);
+            - SPA development in TypeScript, React/React - Redux, according to documentation;
             <br />
-            - development of applications with the functionality specified in the terms of
-            reference;
+            - creating sites, individual pages, adding animation and interactivity;
             <br />
-            - adding functionality and animation to websites;
+            - creating landing pages based on layouts from Figma (Perfect Pixel);
             <br />
             - search for and corrected errors in the existing code;
             <br />
             - refactoring code on the ECMAScript 6;
-            <br />
-            - createing custom react components and custom hooks;
             <br />
             - refactoring of class react components to functional react components;
             <br />
