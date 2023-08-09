@@ -23,7 +23,7 @@ export const contactsArr: contactsType[] = [
     {
         id: 1,
         title: 'github',
-        href: "https://github.com/Aleksandr-Glebik?tab=repositories",
+        href: "https://github.com/Aleksandr-Glebik",
         imgSrc: githubWhiteSrc,
         text: 'GitHub: Aleksandr-Glebik'
     },
