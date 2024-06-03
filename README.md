@@ -1,3 +1,5 @@
-### CV: Aleksandr Glebik ( React, TypeScript, SCSS )
+#### CV: Aleksandr Glebik
 
-Deploy: https://Aleksandr-Glebik.github.io/cv-glebikaa
+#### React, TypeScript, SCSS, framer-motion, react transition group
+
+#### Deploy: https://Aleksandr-Glebik.github.io/cv-glebikaa
