@@ -10,6 +10,19 @@ font-family: 'Shantell Sans', cursive;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        border-radius: 4px;
+    }
+    &::-webkit-scrollbar-track {
+        border-radius: 4px;
+        background-color: black;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: $gold;
+    }
 }
 .bgStars-enter-active {
     animation: bgPanTr 6s both;
