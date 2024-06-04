@@ -21,7 +21,7 @@ const Languages: React.FC = () => {
           </motion.h2>
           <motion.ul className={styles.content__list} custom={2} variants={contentAnimation}>
             <li className={styles.content__list_item}>Russian - Native;</li>
-            <li className={styles.content__list_item}>English - B1 (studying);</li>
+            <li className={styles.content__list_item}>English - A2 (studying);</li>
             <li className={styles.content__list_item}>Polish - A1;</li>
           </motion.ul>
           <div className={styles.content__footer}>
